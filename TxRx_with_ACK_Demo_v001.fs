@@ -27,11 +27,6 @@
 \
 \ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-\ Flag which determines which kind of node this is: transmitter or receiver.
-\ If set to _TRUE, then the code will setup as a transmitter node.
-\ If set to _FALSE, then the code will be setup as a receiver node instead
-_TRUE constant _TRANSMITTER_NODE 
-
 #251 CONSTANT _MAX_DATA_PAYLOAD_LENGTH  \ 251 bytes
 \ #define MAX_PACKET_COUNTER_CHARACTERS 1
 \ #define MAX_PAYLOAD_LENGTH (MAX_DATA_PAYLOAD_LENGTH + MAX_PACKET_COUNTER_CHARACTERS)  
