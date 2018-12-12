@@ -102,9 +102,6 @@ $4000110C constant _NRF_RADIO__EVENTS_END
 
 : initializeTxAddress transmitterNode @ if _target_baseAddress _NRF_RADIO__BASE0 ! _target_prefixAddress _NRF_RADIO__PREFIX0 ! else _my_baseAddress _NRF_RADIO__BASE0 ! _my_prefixAddress _NRF_RADIO__PREFIX0 ! then ;
 
-
-: identityCheck ." Identity check:  " transmitterNode @ if ." I am the transmitter node." else ." I am the receiver node." then CR ;
-
 : setupRxRole disableRadio rxRadioBuffer _NRF_RADIO__PACKETPTR ! initializeRxAddress ;
 
 : initializeRxIdleMode activateRxidleState ;  
