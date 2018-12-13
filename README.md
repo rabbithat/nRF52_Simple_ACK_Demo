@@ -24,3 +24,7 @@ DIRECTIONS:
 3. At the REPL prompt, type 'tx' to create a transmitting node, or 'rx' 
    to create a receiver node. For a proper demonstration, you will need 
    one node of each type.
+   
+   Revision History:
+   
+   Version 2:  Reduced the payload to be just two bytes.  This allowed the ACK timeout window to be reduced from 250 microseconds to 180 microseconds.
