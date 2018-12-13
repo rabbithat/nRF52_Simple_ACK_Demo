@@ -27,4 +27,4 @@ DIRECTIONS:
    
    Revision History:
    
-   Version 2:  Reduced the payload to be just two bytes.  This allowed the ACK timeout window to be reduced from 250 microseconds to 180 microseconds.
+   Version 2:  Reduced the packet payload to be just two bytes.  This allowed the ACK timeout window to be reduced from 250 microseconds to 180 microseconds.
